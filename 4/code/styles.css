@@ -137,14 +137,14 @@ body {
 .page-footer {
   flex-shrink: 0;
   padding: 0 var(--side-padding) 40px;
-  text-align: center;
+  text-align: left;
 }
 
 .footer-line {
   width: 87%;
-  height: 2px;
+  height: 4px;
   background: var(--navy);
-  margin: 0 auto 16px;
+  margin: 0 0 12px;
 }
 
 .footer-date {
@@ -153,6 +153,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--navy);
   text-transform: uppercase;
+  text-align: left;
 }
 
 /* ── Print ── */
